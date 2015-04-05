@@ -46,12 +46,5 @@ class CsvImporter
 			}
 		}
 	}
-	var mSendURL:URLRequest = new URLRequest();
-	var mLoadURL:URLLoader = new URLLoader();
-	private function updateValue(aRow:Int,aData:Float):Void
-	{
-		mSendURL.url = "https://script.google.com/macros/s/AKfycbzWWzuxMdZ8TavMf8HUlv7du-3o2xXF544roJoC32sS/dev?position=A" + aRow + "&data=" + aData;
-		mLoadURL.load(mSendURL);
-	}
 	
 }
