@@ -1,8 +1,9 @@
 # spreadSheet-haxe
 OpenFl
+
 import variables from spreadSheet, dynamically update with the option to inline them at relase.
 
-How to use
+##How to use
 create  a cvs file in your machine, you can a text editor 
 example:
 
