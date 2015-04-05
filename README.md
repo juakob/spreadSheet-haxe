@@ -32,6 +32,6 @@ to get the values just type MyConstants.heroSpeed, the auto-complete should work
 
 To inline the values use <haxedef name="INLINE_VARIABLES"/> in your project, when the values are inline you can't update them. The inline values are taken from your local file.
 
-
-For the moment all variables names must be haxe compatible names(no spaces,etc), and all the values are cast as floats
+#considerations
+For the moment all variables names must be haxe compatible names(no spaces,etc), and all the values are cast as floats. You can only use two colums the first one is for the variables names and the second one for the values
 
